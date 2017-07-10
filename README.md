@@ -76,6 +76,22 @@ Implement the component in the iframe:
 </script>
 ```
 
+###Implement for tourplus
+<head>
+  <script async="" src="//cdn.rawgit.com/kylefoo/xcomponent/72d8a648/dist/xcomponent.min.js"></script>
+</head>
+
+<div id="tplus_container" style="overflow: auto;"></div>
+
+<script>
+  window.TplusProductsComponent = xcomponent.create({
+      tag: 'products-component',
+      url: 'http://www.tourplus.my/en/products/city?c=1'
+  });
+
+    TplusProductsComponent.render({}, '#tplus_container');
+</script>
+
 ### Useful Links
 
 - [Introducing xcomponent](https://medium.com/@bluepnume/introducing-xcomponent-seamless-cross-domain-web-components-from-paypal-c0144f3e82bf#.ikbg9r1ml)
