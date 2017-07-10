@@ -78,7 +78,8 @@ Implement the component in the iframe:
 
 ### Implement for tourplus
 
-```<head>
+```javascript
+<head>
   <script async="" src="//cdn.rawgit.com/kylefoo/xcomponent/72d8a648/dist/xcomponent.min.js"></script>
 </head>
 
