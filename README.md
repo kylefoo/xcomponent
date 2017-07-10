@@ -76,8 +76,9 @@ Implement the component in the iframe:
 </script>
 ```
 
-###Implement for tourplus
-<head>
+### Implement for tourplus
+
+```<head>
   <script async="" src="//cdn.rawgit.com/kylefoo/xcomponent/72d8a648/dist/xcomponent.min.js"></script>
 </head>
 
@@ -91,6 +92,7 @@ Implement the component in the iframe:
 
     TplusProductsComponent.render({}, '#tplus_container');
 </script>
+```
 
 ### Useful Links
 
